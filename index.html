@@ -1,595 +1,486 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>Cyberpulse</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="icon" href="./images/cyp_logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <script src="./js/main.js"></script>
-</head>
-<body>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BuildCo &mdash; We construct with Elegance and Class 💯</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+    <!-- Development CSS -->
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+
+    <!-- Deployable CSS -->
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
     <header class="header">
-        <a href="#" class="logo"></a>
-        <div class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#supporters">supporters</a></li>
-                <li><a href="#collabirations">collabirations</a></li>
-                <li><a href="#Resources">Resources</a></li>
-                <li><a href="#The Foundation">The Foundation</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#team">team</a></li>
-                <li><a href="careers.html">career</a></li>
-                <li><a href="#contact">contact</a></li>
-                <li><a href="#faq">FAQ</a></li>
-            </ul>
+      <div class="header__menu-bar">
+        <div class="header__logo-box">
+          <svg class="logo">
+            <use xlink:href="img/sprite.svg#buildco-logo-green"></use>
+          </svg>
+        </div>
+
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link header__nav-link--active"
+                >Home</a
+              >
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">About Us</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Estate</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Projects</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Gallery</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Contact Us</a>
+            </li>
+          </ul>
         </nav>
+
+        <div class="header__btn-box">
+          <a href="#" class="btn btn--white">Login</a>
+          <a href="#" class="btn btn--green">Sign Up</a>
+        </div>
+      </div>
+      <div class="header__content u-margin-bottom-big">
+        <div class="header__hero-img-box">
+          <img
+            src="img/hero-img-2x.png"
+            alt="BuildCo Hero Image"
+            srcset="img/hero-img-1x.png 1x, img/hero-img-2x.png 2x"
+            class="header__hero-img"
+          />
+        </div>
+
+        <div class="header__text-box">
+          <h1 class="heading-primary u-margin-bottom-small">
+            <span class="heading-primary--sub"> If you can Imagine it, </span>
+            <span class="heading-primary--main">
+              We can <span class="emphasis">build</span> it.
+            </span>
+          </h1>
+          <p class="heading-sub u-margin-bottom-mid">
+            We are a people-orientated, progressive business, driven by our
+            values to deliver lasting change for our stakeholders and the
+            communities we work in.
+          </p>
+
+          <div class="header__form-group">
+            <form action="#" class="header__form">
+              <input
+                class="header__form-input u-margin-bottom-mid"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Your Email"
+                autocomplete="off"
+                required
+              />
+              <button class="btn btn--green">Let's Build</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </header>
 
-  <section id="home" class="home">
-      <h1>GREENFIELD DEVELOPERS </h1>
-      <h1>Construction services</h1>
-      <h2>Experience thoughtfully designed apartments and villas built with uncompromising quality, modern architecture, and complete peace of mind</h2>
-    <div class="wave wave1"></div>
-    <div class="wave wave2"></div>
-    <div class="wave wave3"></div>
-  </section>
-
-  <section id="about" class="about">
-    <h1 class="heading">about us</h1>
-    <div class="row">
-        <div class="content">
-            <h3>We make creativity work for your brand!</h3>
-            <p>Ours is a team of creatives that is brainstorming on great ideas,<b> all. the. time.</b><br>
-                With our skills put together, you get an ensemble capable of doing anything and everything your brand needs.</p>
-            <h3>Our Mission</h3>
-            <p>our mission is to empower businesses with innovative technology solutions that drive growth, efficiency, and success.</p>
-            <!-- <a href="#"><button class="btn">Read More</button></a> -->
-        </div>
-    </div>
-  </section>
-
-  <section class="whychooseus">
-    <h1 class="heading" style="margin-top: -2rem; color: #00bfff;" id="whychooseus">Why Choose Us</h1>
-    <div class="row">
-        <div class="accordion-container">
-            <div class="accordion">
-                <div class="accordion-header">
-                    <span>+</span>
-                    <h3>Experienced Team</h3>
-                  
-                </div>
-                <div class="accordion-body">
-                    <p>Our team comprises seasoned professionals with extensive experience in the IT industry.</p>
-
-                </div>
-            </div>
-            <div class="accordion">
-                <div class="accordion-header">
-                    <span>+</span>
-                    <h3>Custom Solutions</h3>
-                </div>
-                <div class="accordion-body">
-                    <p>We believe in delivering bespoke solutions that address your specific business challenges.</p>
-                </div>
-            </div>
-            <div class="accordion">
-                <div class="accordion-header">
-                    <span>+</span>
-                    <h3>Customer Satisfaction</h3>
-                </div>
-                <div class="accordion-body">
-                    <p>We prioritize customer satisfaction and strive to exceed your expectations with every projec</p>
-                </div>
-            </div> 
-            <div class="accordion">
-                <div class="accordion-header">
-                    <span>+</span>
-                    <h3>Continuous Support</h3>
-                </div>
-                <div class="accordion-body">
-                    <p>Our support doesn't end with project delivery. We provide ongoing support and maintenance to ensure the smooth functioning of your systems.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-  <div class="pt-5 pb-5" style="background-color: #f2f2f2;">
-    <div class="container">
-      <div class="row">
-        <div class="section-head col-sm-12" id="service">
-          <h1>Key Services</h1>
-          <p>We help you to build high-quality digital solutions and products as well as deliver a wide range of related professional services. We are providing world-class service to our clients.
+    <main>
+      <section class="who-we-are">
+        <h3 class="heading-tertiary u-margin-bottom-small">Builco</h3>
+        <div class="who-we-are__content">
+          <div class="who-we-are__left">
+            <h2 class="heading-secondary u-margin-bottom-small">Who we are</h2>
+            <p class="paragraph">
+              We are a well established construction company with over 20 years
+              experience. Specialising in the public and private sector, We
+              strive to form close working relationships with clients and
+              industry professionals to provide a full service that reflects
+              attention to detail and quality, put simply we build solutions
+              together.
             </p>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
-            <h6>Web  Development</h6>
-            <p>Our  web development services encompass everything from simple websites to complex web applications. We utilize the latest technologies and best practices to create engaging and intuitive web experiences that captivate your audience and drive results.
-            </p><br><br><br><br><br>
+          </div>
 
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-bars"></i></span>
-            <h6>IT Consultancy</h6>
-            <p>Navigating the ever-evolving landscape of technology can be daunting. That's where our IT consultancy services come in. We provide strategic guidance and expert advice to help you make informed decisions and stay ahead of the curve.
-            </p><br><br><br><br><br>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-android"></i></span>
-            <h6>Social Media Marketing</h6>
-            <p>Social media marketing involves using social media platforms to connect with your audience, build brand awareness, and drive website traffic or conversions. Social media marketing theory covers topics such as audience targeting, content scheduling, engagement strategies, and measuring social media ROI.</p>
-        
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-users"></i></span>
-                <h6>Networking</h6>
-                <p>Our networking solutions ensure seamless connectivity and optimal performance for your business infrastructure.
-                    Network theory in digital marketing involves leveraging these social networks to build brand presence, engage with customers, and amplify marketing messages through shares, likes, and comments.
-                </p>
-            </div>
-        </div>
-      </div>
-    </div>
-</div>
-
-<div class="pt-5 pb-5" style="background-color: #d1cece;">
-    <div class="container">
-      <div class="row">
-        <div class="section-head col-sm-12" id="terms&conditions">
-          <h1>terms&conditions</h1>
-          <p>Terms and conditions for an IT company's services typically cover various aspects such as usage policies, service agreements, payment terms, intellectual property rights, warranties, liabilities, and dispute resolution. 
+          <div class="who-we-are__right">
+            <p class="who-we-are__paragraph paragraph">
+              <span class="emphasis">20</span>
+              Years of Experience
             </p>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-clock"></i></span>
-              <h6>Service Description</h6>
-              <p>Describe the IT services offered by the company, including any specific details or limitations.
-              </p><br><br>
-            </div>
+
+            <p class="who-we-are__paragraph paragraph">
+              <span class="emphasis">40+</span>
+              Clients all over the world
+            </p>
+
+            <p class="who-we-are__paragraph paragraph">
+              <span class="emphasis">20.2 p</span>
+              Interim dividend per share up 83.3%
+            </p>
+
+            <p class="who-we-are__paragraph paragraph">
+              <span class="emphasis">GHc1m</span>
+              Construction Backlog Revenue
+            </p>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-gift"></i></span>
-              <h6>User Agreement</h6>
-              <p> Outline the terms of use for customers accessing the company's services, including any prohibited activities.
+        </div>
+      </section>
+
+      <section class="what-we-offer">
+        <div class="heading__fix u-center-text">
+          <h3 class="heading-tertiary u-margin-bottom-small">Our services</h3>
+        </div>
+
+        <h2 class="heading-secondary u-margin-bottom-small u-center-text">
+          What we do offer
+        </h2>
+        <p class="paragraph u-margin-bottom-big u-center-text">
+          As a leader in our industry, we have always worked to develop advanced
+          technology and innovative methods.
+        </p>
+
+        <div class="what-we-offer__content-box">
+          <div class="what-we-offer__content">
+            <h4 class="what-we-offer__title u-margin-bottom-small">
+              <span class="icon-box">
+                <svg class="icon">
+                  <use xlink:href="img/sprite.svg#crane"></use>
+                </svg>
+              </span>
+              New Building Construction
+            </h4>
+            <p class="paragraph">
+              Whatever your construction requirements we can help you - from new
+              builds to refurbishments.
+            </p>
+          </div>
+          <div class="what-we-offer__content">
+            <h4 class="what-we-offer__title u-margin-bottom-small">
+              <span class="icon-box">
+                <svg class="icon">
+                  <use xlink:href="img/sprite.svg#compass"></use>
+                </svg>
+              </span>
+              Architectural Designs
+            </h4>
+            <p class="paragraph">
+              Building Design, Interior Design, Structural Design, 3D
+              Visualization.
+            </p>
+          </div>
+          <div class="what-we-offer__content">
+            <h4 class="what-we-offer__title u-margin-bottom-small">
+              <span class="icon-box">
+                <svg class="icon">
+                  <use xlink:href="img/sprite.svg#electric"></use>
+                </svg>
+              </span>
+              Commercial and Electrical Installations
+            </h4>
+            <p class="paragraph">
+              We install and cable associated devices such as switches,
+              distribution boards, sockets, and light fittings in a structure.
+            </p>
+          </div>
+          <div class="what-we-offer__content">
+            <h4 class="what-we-offer__title u-margin-bottom-small">
+              <span class="icon-box">
+                <svg class="icon">
+                  <use xlink:href="img/sprite.svg#view"></use>
+                </svg>
+              </span>
+              Landscaping & External Works
+            </h4>
+            <p class="paragraph">
+              Hard landscaping projects create an interesting outside area to
+              your property and will add to its value.
+            </p>
+          </div>
+          <div class="what-we-offer__content">
+            <h4 class="what-we-offer__title u-margin-bottom-small">
+              <span class="icon-box">
+                <svg class="icon">
+                  <use xlink:href="img/sprite.svg#mechanic"></use>
+                </svg>
+              </span>
+              Mechanical and Renewables
+            </h4>
+            <p class="paragraph">
+              We design, install, commission, maintain and service a vast range
+              of mechanical equipment in Private Housing, Social Housing and
+              Commercial properties.
+            </p>
+          </div>
+          <div class="what-we-offer__content">
+            <h4 class="what-we-offer__title u-margin-bottom-small">
+              <span class="icon-box">
+                <svg class="icon">
+                  <use xlink:href="img/sprite.svg#roof"></use>
+                </svg>
+              </span>
+              Roofing Installation
+            </h4>
+            <p class="paragraph">
+              We provide effective, service-oriented roofing and consistently
+              providing our clients with materials of the highest quality.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mission">
+        <h3 class="heading-tertiary u-margin-bottom-small">Our Mission</h3>
+        <div class="mission__container">
+          <div class="mission__content-box mission__left">
+            <div class="mission__content">
+              <h4 class="mission__title u-margin-bottom-small">Vision</h4>
+              <p class="paragraph">
+                Our Vision is to be one of the prestigious Building Construction
+                organizations providing lasting edifice for our clients all over
+                Africa, with world-class technology at a competitive cost.
+              </p>
+            </div>
+
+            <div class="mission__content">
+              <h4 class="mission__title u-margin-bottom-small">Mission</h4>
+              <p class="paragraph">
+                Our mission as an organization is to bridge the gap between
+                Africa and the western world in terms of quality product,
+                service delivery.
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-award"></i></span>
-              <h6>Termination</h6>
-              <p>Outline the circumstances under which either party can terminate the agreement and any associated termination fees or procedures.
+
+          <div class="mission__right">
+            <div class="mission__img-box">
+              <img
+                src="img/mission-img-2x.png"
+                alt="Mission Image"
+                class="mission__img"
+                srcset="img/mission-img-1x.png 1x, img/mission-img-2x.png 2x"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-us">
+        <div class="why-us__left">
+          <img
+            src="img/why-us-img-2x.png"
+            alt="Why us"
+            class="why-us__img"
+            srcset="img/why-us-img-1x.png 1x, img/why-us-img-2x.png 2x"
+          />
+        </div>
+
+        <div class="why-us__right">
+          <h3 class="heading-tertiary u-margin-bottom-small">Why us</h3>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            Carbon capabilities and journey to net zero
+          </h2>
+          <p class="paragraph">
+            As a progressive business, committed to doing the right thing,
+            Galliford Try recognises the urgency of the climate change agenda
+            and champions the role we have to play in decarbonising the economy
+            for a greener, more sustainable future. As well as driving down our
+            own carbon footprint, we work with clients to deliver low and net
+            zero projects and work with suppliers and design consultants to help
+            everyone in the industry reach their net zero carbon targets.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-us">
+        <h3 class="heading-tertiary u-margin-bottom-small">Contact Us</h3>
+        <div class="contact-us__container">
+          <div class="contact-us__left">
+            <h2 class="heading-secondary u-margin-bottom-small">Let's Talk</h2>
+            <p class="paragraph u-margin-bottom-mid">
+              We've found that we deliver the greatest value to our clients when
+              we establish ongoing relationships that allow us to materially
+              contribute to their long-term success.
+            </p>
+
+            <div class="contact-us__inner-content-box">
+              <h3 class="contact-us__title u-margin-bottom-small">
+                <span class="contact-us__icon-box">
+                  <svg class="arr-down">
+                    <use xlink:href="img/sprite.svg#arrow-down-green"></use>
+                  </svg>
+                </span>
+                Visit us personally
+              </h3>
+              <p class="paragraph u-margin-bottom-small">
+                Near Hanuman Temple, Srinivas Nagar, Nizampet Hyderabad
               </p>
+
+              <div class="contact-us__img-box">
+                <img
+                  src="img/map-2x.png"
+                  alt="Our Location"
+                  class="contact-us__img"
+                  srcset="img/map-1x.png 1x, img/map-2x.png 2x"
+                />
+              </div>
             </div>
           </div>
-      </div>
-    </div>
-</div>      
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-  <section class="counters">
-    <div class="container">
-        <div>
-            <i class="far fa-clock fa-4x"></i>
-            <div class="counter" data-target="13500">0</div>
-            <h3>Working Hours</h3>
-        </div>
-        <div>
-            <i class="fas fa-gift fa-4x"></i>
-            <div class="counter" data-target="720">0</div>
-            <h3>Completed Projects</h3>
-        </div>
-        <div>
-            <i class="fas fa-users fa-4x"></i>
-            <div class="counter" data-target="480">0</div>
-            <h3>Happy Clients</h3>
-        </div>
-        <div>
-            <i class="fas fa-award fa-4x"></i>
-            <div class="counter" data-target="120">0</div>
-            <h3>Awards Received</h3>
-        </div>
-    </div>
-</section>
-
-<div class="pt-5 pb-5">
-    <div class="container">
-      <div class="row">
-        <div class="section-head-1 col-sm-12" style="text-align: center;">
-          <h4 style="margin-top: -5rem;" id="portfolio"><span>Our</span> Projects</h4>
-          
-          <p>The objective of IT Company is to enable a large number of youth to take up <br>industry-relevant skill training that will help them<br> in securing a better livelihood.
-            </p>
-        </div>
-        
-        <div class="col-lg-4 col-sm-6">
-          
-          <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
-            <h6>P P ENTERPRISES</h6>
-            
-            <p>The key to smarter prospecting is having the right data about your target account. Don’t waste time fishing around when you can get what you need in one easy-to-use, self-service platform — backed by the unparalleled Dun & Bradstreet Data Cloud.</p>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_five"><i class="fa fa-upload"></i></span>
-            <h6>SRI VENKATESWARA PAINTING WORKS</h6>
-            <p>Our service range includes a wide range of Building Painting Services, Painting Services and Painting Works.<br><br><br><br></p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_six"><i class="fa fa-camera"></i></span>
-            <h6>BUTTERFLY ONE SOLUTION ENTERPRISES</h6>
-            <p>Our solutions support our clients' mission critical business operations by providing proprietary and curated data and analytics to help drive informed decisions and improved outcomes.<br><br></p>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>
-
-<!-- <div class="communicate">
-    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <a href="#contact"><button class="btn">Contact Now</button></a>
-</div> -->
-
-<div class="testimonials mt-100">
-    <div class="container">
-        <div class="section-header" style="text-align: center;">
-            <h2 style="margin-top: -15rem;">Testimonials</h2>
-            <p style="font-size: 2rem;">
-                See what people have to say about us
-            </p>
-        </div>
-
-        <div class="owl-carousel testimonials-carousel">
-            <div class="testimonial-item row align-items-center">
-                <div class="testimonial-img">
-                    <img src="./images/Dharani.jpg" alt="Testimonial image">
+          <div class="contact-us__right">
+            <form action="#" class="contact-us__form form">
+              <div class="form__col form__col--1 u-margin-bottom-small">
+                <div class="form__group">
+                  <label for="name" class="form__label">Name</label>
+                  <input
+                    class="form__input"
+                    type="name"
+                    name="name"
+                    id="name"
+                    placeholder="Michael Mensah"
+                    autocomplete="off"
+                    required
+                  />
                 </div>
-                <div class="testimonial-text">
-                    <h3>Dharani</h3>
-                    <h4>Designation</h4>
-                    <p>
-                        Trainee
 
-                    </p>
-                </div>
-            </div>
-            <div class="testimonial-item row align-items-center">
-                <div class="testimonial-img">
-                    <img src="./images/dhana1.jpg" alt="Testimonial image">
-                </div>
-                <div class="testimonial-text">
-                    <h3>Dhana lakshmi</h3>
-                    <h4>Designation</h4>
-                    <p>
-                        Associate Consultant
-
-                    </p>
-                </div>
-            </div>
-            <div class="testimonial-item row align-items-center">
-                <div class="testimonial-img">
-                    <img src="./images/pavi.jpg" alt="Testimonial image">
-                </div>
-                <div class="testimonial-text">
-                    <h3>Pavithra</h3>
-                    <h4>Designation</h4>
-                    <p>
-                        Junior Developer
-
-
-                    </p>
-                </div>
-            </div>
-            <div class="testimonial-item row align-items-center">
-                <div class="testimonial-img">
-                    <img src="./images/narasimha1.jpg" alt="Testimonial image">
-                </div>
-                <div class="testimonial-text">
-                    <h3>Narasimha</h3>
-                    <h4>Designation</h4>
-                    <p>
-                        Technical Lead
-
-                    </p>
-                </div>
-            </div>
-            <div class="testimonial-item row align-items-center">
-                <div class="testimonial-img">
-                    <img src="./images/feeda.jpg" alt="Testimonial image">
-                </div>
-                <div class="testimonial-text">
-                    <h3>Feeda hussain</h3>
-                    <h4>Designation</h4>
-                    <p>
-                        Project Coordinator
-
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="clients mt-100">
-    <div class="container">
-        <div class="section-header">
-            <h2>Our Clients</h2>
-            <p>
-                We don't just build softwares, we build your business.
-            </p>
-        </div>
-        <div class="owl-carousel clients-carousel">
-            <h3>P P ENTERPRISES</h3>
-            <h3>SRI VENKATESWARA PAINTING WORKS</h3>
-            <h3>BUTTERFLY ONE SOLUTION ENTERPRISES</h3>
-            <h3>AA CONSULTANCY SERVICES</h3>
-            <h3>PSD ENTERPRISES</h3>
-        </div>
-    </div>
-</div>
-<a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
-<script src="lib/jquery/jquery.min.js"></script>
-<script src="lib/jquery/jquery-migrate.min.js"></script>
-<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/waypoints/waypoints.min.js"></script>
-<script src="lib/counterup/counterup.min.js"></script>
-<script src="lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="lib/lightbox/js/lightbox.min.js"></script>
-
-<section class="team" style="margin-top: 7rem;">
-  <h1 class="heading" style="margin-top: -1.5rem;" id="team">our team</h1>
-   <p style="color:white; font-size: 16px">Meet the talented individuals behind CYBERPULSE TECHNOLOGIES PRIVATE LIMITE. Our team comprises seasoned professionals with diverse skill sets and a shared passion for technology and innovation.
-   </p>
-  <div class="row">
-      <div class="card">
-          <div class="image">
-              <img src="./images/sivakasireddy.jpg" alt="Team member 1">
-          </div>
-          <div class="info">
-              <h3>Siva kasi reddy</h3>
-              <span>Web Developer</span>
-              <div class="icons">
-                  <a href="https://www.facebook.com/profile.php?id=100022965908916/" target="_blank" class="fab fa-facebook-f"></a>
-                  <a href="https://twitter.com/login" target="_blank" class="fab fa-twitter"></a>
-                  <a href="https://www.instagram.com/sivakasireddymandha/" target="_blank" class="fab fa-instagram"></a>
-                  <a href="https://www.linkedin.com/in/mandha-sivakasireddy-044b762b2/" target="_blank" class="fab fa-linkedin"></a>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="row">
-      <div class="card">
-          <div class="image">
-              <img src="./images/kalyani1.jpg" alt="Team member 1">
-          </div>
-          <div class="info">
-              <h3>Kalyani</h3>
-              <span>Mobile Developer</span>
-              <div class="icons">
-                  <a href="https://www.facebook.com/kalyanireddy.cuty/" target="_blank" class="fab fa-facebook-f"></a>
-                  <a href="https://twitter.com/login"  target="_blank" class="fab fa-twitter"></a>
-                  <a href="https://www.instagram.com/kalyani_437m/" target="_blank" class="fab fa-instagram"></a>
-                  <a href="https://www.linkedin.com/in/kalyani-manda-317845212" target="_blank" class="fab fa-linkedin"></a>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="row">
-      <div class="card">
-          <div class="image">
-              <img src="./images/Narayana.jpg" alt="Team member 1">
-          </div>
-          <div class="info">
-              <h3>Narayana reddy</h3>
-              <span>Architech Designer</span>
-              <div class="icons">
-                  <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a>
-                  <a href="https://twitter.com/login" target="_blank" class="fab fa-twitter"></a>
-                  <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a>
-                  <a href="https://www.linkedin.com/" target="_blank" class="fab fa-linkedin"></a>
-              </div>
-          </div>
-      </div>
-  </div>
-  <div class="row">
-      <div class="card">
-          <div class="image">
-              <img src="./images/pavani.jpg" alt="Team member 1">
-          </div>
-          <div class="info">
-              <h3>Pavani</h3>
-              <span>Web Designer</span>
-              <div class="icons">
-                  <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a>
-                  <a href="https://twitter.com/login" target="_blank" class="fab fa-twitter"></a>
-                  <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a>
-                  <a href="https://www.linkedin.com/" target="_blank" class="fab fa-linkedin"></a>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
-
-<section id="contact" class="contact">
-    <h1 class="heading">get in touch</h1>
-</section>
-<div class="contact-in">
-    <div class="contact-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30711243.17762776!2d64.4398422293091!3d20.011408266548177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1644684739958!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-    <div class="contact-form">
-        <form action="./contactme.php" method="POST">
-            <input type="text" name="name" placeholder="Name" class="contact-form-txt" required>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Contact number" maxlength="10" class="contact-form-phone">
-            <input type="email" name="email" placeholder="Email" class="contact-form-email" required>
-            <textarea placeholder="Your Message" name="message" class="contact-form-txtarea" required></textarea>
-            <input type="submit" value="Submit" name="submit" class="contact-form-btn">
-        </form>
-    </div>
-    </div>
-
-    <section class="faq">
-      <h1 class="heading" style="margin-top: -2rem; color: #00bfff;" id="faq">FAQ</h1>
-      <div class="row">
-          <div class="accordion-container">
-              <div class="accordion">
-                  <div class="accordion-header">
-                      <span>+</span>
-                      <h3>Why should I prefer your company?</h3>
-                  </div>
-                  <div class="accordion-body">
-                      <p>Some people may say that CYBERPULSE TECHNOLOGIES PRIVATE LIMITE is a great company for freshers because it offers a lot of training and development opportunities.
-                        I heard from my friends that CYBERPULSE TECHNOLOGIES PRIVATE LIMITEhas a very good work environment where employees get good respect.
-                        Moreover, CYBERPULSE TECHNOLOGIES PRIVATE LIMITE is one of the Top IT company in India and abroad.
-                      </p>
-                   </div>
-              </div>
-              <div class="accordion">
-                  <div class="accordion-header">
-                      <span>+</span>
-                      <h3>What makes you a good IT consultant?</h3>
-                  </div>
-                  <div class="accordion-body">
-                      <p>I have a strong technical background, excellent problem-solving skills, and the ability to communicate effectively with both technical and non-technical stakeholders.</p>
-                  </div>
-              </div>
-              <div class="accordion">
-                  <div class="accordion-header">
-                      <span>+</span>
-                      <h3>How do I associate with IT Company?</h3>
-                  </div>
-                  <div class="accordion-body">
-                      <p>The process begins when you contact us with your requirements. We analyze your requirements and respond to you. 
-                          On the basis of the further discussion, you can choose an engagement model that suits you the best. 
-                          After that, we begin the process of development.</p>
-                  </div>
-              </div>
-              <div class="accordion">
-                  <div class="accordion-header">
-                      <span>+</span>
-                      <h3>Can you help my current site look more professional?</h3>
-                  </div>
-                  <div class="accordion-body">
-                      <p>Yes. Give us your requirements and we have experienced expertise to help you give a 
-                          new professional look that really wonders!</p>
-                  </div>
-              </div>
-              <div class="accordion">
-                  <div class="accordion-header">
-                      <span>+</span>
-                      <h3>How do you maintain confidentiality?</h3></h3>
-                  </div>
-                  <div class="accordion-body">
-                      <p>we adhere to strict data protection protocols and ensure that all sensitive information is encrypted and securely stored.</p>
-                  </div>
-              </div>
-              <div class="accordion">
-                <div class="accordion-header">
-                    <span>+</span>
-                    <h3>How do your commitments?</h3>
-                </div>
-                <div class="accordion-body">
-                    <p>we are committed to delivering exceptional results and exceeding our clients' expectations. Your success is our success, and we go above and beyond to ensure your satisfaction.</p>
+                <div class="form__group">
+                  <label for="contact-email" class="form__label">Email</label>
+                  <input
+                    class="form__input"
+                    type="email"
+                    name="contact-email"
+                    id="contact-email"
+                    placeholder="Micheal@example.com"
+                    autocomplete="off"
+                    required
+                  />
                 </div>
               </div>
-          </div>
-      </div>
-  </section>
 
-    <div class="footer">
-      <div class="footer-top">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-3 col-md-6 footer-links">
-                      <h4>About Us</h4>
-                      <ul>
-                          <li><i class="ion-ios-arrow-forward"></i> <a href="#">Home</a></li>
-                          <li><i class="ion-ios-arrow-forward"></i> <a href="#about">About us</a></li>
-                          <li><i class="ion-ios-arrow-forward"></i> <a href="#service">Our services</a></li>
-                          <li><i class="ion-ios-arrow-forward"></i> <a href="#terms&conditions">Terms & conditions</a></li>
-                          <li><i class="ion-ios-arrow-forward"></i> <a href="#">Privacy policy</a></li>
-                      </ul>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6 footer-links">
-                      <h4>Useful Links</h4>
-                      <ul>
-                          <li><i class="ion-ios-arrow-forward"></i> <a href="#portfolio">Portfolio</a></li>
-                          <li><i class="ion-ios-arrow-forward"></i> <a href="#team">Team</a></li>
-                          <li><i class="ion-ios-arrow-forward"></i> <a href="#whychooseus">Wy Choose Us</a></li>
-                          <li><i class="ion-ios-arrow-forward"></i> <a href="careers.html">Career</a></li>
-                          <li><i class="ion-ios-arrow-forward"></i> <a href="#contact">Contact</a></li>
-                          <li><i class="ion-ios-arrow-forward"></i> <a href="#faq">FAQ</a></li>
-                      </ul>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6 footer-contact" style="font-size: 1.5rem;">
-                      <h4>Contact Us</h4>
-                      <p>
-                        Kukutpalli<br>
-                        Hyderabad, Telangana<br>
-                        India <br>
-                          <strong>Phone:</strong> 9619146666<br>
-                          <strong>Email:</strong> info@cyberpulseit.com<br>
-                      </p>
-
-                      <div class="social-links">
-                          <a href="https://www.facebook.com/profile.php?id=61556853247804/" target="_blank"><i class="ion-logo-facebook"></i></a>
-                          <a href="https://twitter.com//Cyberpulse56732" target="_blank"><i class="ion-logo-twitter"></i></a>
-                          <a href="https://www.linkedin.com/in/cyberpulse-technologies-private-limited-06b9192b8/" target="_blank"><i class="ion-logo-linkedin"></i></a>
-                          <!-- <a href="https://www.instagram.com/"><i class="ion-logo-instagram"></i></a>
-                          <a href="https://accounts.google.com/servicelogin/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="ion-logo-googleplus"></i></a> -->
-                      </div>
-
-                  </div>
-
-                  <div class="col-lg-3 col-md-6 footer-newsletter">
-                      <h4>Address</h4>
-                      <p>Company Name:<br>CYBERPULSE TECHNOLOGIES PRIVATE LIMITE</p>
-                      <p>Address:<br>	Door No 5-35,prashanth nagar </p>
-                      <p>colony,Tirumalagiri,Hyderabad,Telangana, India-500072</p>
-                      <form action="" method="post">
-                          <input type="email" name="email"><input type="submit"  value="Subscribe">
-                      </form>
-                  </div>
-
+              <div class="form__col form__col--2 u-margin-bottom-mid">
+                <div class="form__group">
+                  <label for="message" class="form__label">Message</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    class="form__textarea"
+                    required
+                    placeholder="Say Something..."
+                  ></textarea>
+                </div>
               </div>
+
+              <button class="btn btn--green">Send us a message</button>
+            </form>
           </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__row-1">
+        <div class="footer__box">
+          <h4 class="footer__title">Company</h4>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">About Us</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Estates</a>
+            </li>
+            <li class="#footer__item">
+              <a href="" class="footer__link">Projects</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Gallery</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__box">
+          <h4 class="footer__title">Support</h4>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Get Help</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">FAQs</a>
+            </li>
+            <li class="#footer__item">
+              <a href="" class="footer__link">Privacy Policy</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Terms of Operation</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__box">
+          <h4 class="footer__title">Offices</h4>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Accra</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Kumasi</a>
+            </li>
+            <li class="#footer__item">
+              <a href="" class="footer__link">Takoradi</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Kasoa</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__box">
+          <label for="language" class="footer__title">Language</label>
+          <select name="language" id="language" class="footer__dropdown">
+            <option class="footer__dropdown-item">English</option>
+            <option class="footer__dropdown-item">French</option>
+            <option class="footer__dropdown-item">Spanish</option>
+            <option class="footer__dropdown-item">Arabic</option>
+          </select>
+        </div>
       </div>
 
-      <div class="container">
-          <div class="row align-items-center">
-              <div class="col-md-6 copyright" style="color: #fff; font-size: 1.3rem;">
-                  Copyright &copy; 2024 CYBERPULSE TECHNOLOGIES PRIVATE LIMITE. All Rights Reserved.
-              </div>
-          </div>
-      </div>
-  </div>
+      <div class="footer__row-2 u-margin-top-small">
+        <p class="copyright">&copy; 2022 Derez. All Rights Reserved.</p>
 
-  <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
-</body>
+        <div class="footer__social-icons-box">
+          <a href="#" class="footer__social-link">
+            <svg class="social-icon">
+              <use xlink:href="img/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+          <a href="#" class="footer__social-link">
+            <svg class="social-icon">
+              <use xlink:href="img/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+          <a href="#" class="footer__social-link">
+            <svg class="social-icon">
+              <use xlink:href="img/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__row-3 u-margin-top-small">
+        <svg class="logo">
+          <use xlink:href="img/sprite.svg#buildco-logo-white"></use>
+        </svg>
+        <p class="developer-text">Made with 🤍 && 🔥 by NMD Solutions</p>
+      </div>
+    </footer>
+  </body>
 </html>
